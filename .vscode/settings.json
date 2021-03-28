@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/LICENSE": true,
+    "**/.dccache": true
+  },
+  
+  "workspaceCacheClean.silent": false,
+  "workspaceCacheClean.autoReload": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+}
