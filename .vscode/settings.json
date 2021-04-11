@@ -5,7 +5,10 @@
     "**/.settings": true,
     "**/.factorypath": true,
     "**/LICENSE": true,
-    "**/.dccache": true
+    ".mvn/": true,
+    "mvnw": true,
+    "mvnw.cmd": true,
+    "**/.dccache": true,
   },
   
   "workspaceCacheClean.silent": false,
