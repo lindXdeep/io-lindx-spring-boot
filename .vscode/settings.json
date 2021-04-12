@@ -10,10 +10,21 @@
     "mvnw.cmd": true,
     "**/.dccache": true,
   },
-  
   "workspaceCacheClean.silent": false,
   "workspaceCacheClean.autoReload": false,
   "java.configuration.updateBuildConfiguration": "automatic",
+
+  "database.connections": [
+    {
+      "type": "mysql",
+      "name": "lindx@localhost (MySql)",
+      "host": "localhost:3306",
+      "username": "lindx",
+      "database": "engdb",
+      "password": "MySql12345!"
+    }
+  ],
+
   "sqltools.connections": [
     {
       "mysqlOptions": {
@@ -23,10 +34,10 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
+      "name": "localhost",
       "database": "engdb",
       "username": "lindx",
-      "password": "MySql12345!",
-      "name": "english_db"
+      "password": "MySql12345!"
     }
   ],
 }

@@ -14,3 +14,8 @@ CREATE TABLE users (
 
 drop table users;
 
+DESCRIBE users;
+
+
+INSERT INTO users(email, password)
+  VALUES('Bob', '12345');
