@@ -14,4 +14,19 @@
   "workspaceCacheClean.silent": false,
   "workspaceCacheClean.autoReload": false,
   "java.configuration.updateBuildConfiguration": "automatic",
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "database": "engdb",
+      "username": "lindx",
+      "password": "MySql12345!",
+      "name": "english_db"
+    }
+  ],
 }
