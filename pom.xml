@@ -8,7 +8,7 @@
   <groupId>io.lindx.boot</groupId>
   <artifactId>io-lindx-spring-boot</artifactId>
   <version>ver-0.1</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>lindx spring boot </name>
 
@@ -33,12 +33,14 @@
   </dependencies>
 
   <build>
+    
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
     </plugins>
+
   </build>
 
 </project>
