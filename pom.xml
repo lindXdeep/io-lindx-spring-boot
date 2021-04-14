@@ -8,7 +8,7 @@
   <groupId>io.lindx.boot</groupId>
   <artifactId>io-lindx-spring-boot</artifactId>
   <version>ver-0.1</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>lindx spring boot </name>
 
